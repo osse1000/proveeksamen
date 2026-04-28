@@ -19,5 +19,6 @@ public class playlist {
             total += s.getDuration();
         }
     }
+    CSV
 
 }
