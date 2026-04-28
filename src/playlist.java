@@ -7,4 +7,6 @@ public class playlist {
     public playlist() {
         songs = new ArrayList<>();
     }
+
+    add.song
 }
