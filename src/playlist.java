@@ -8,5 +8,16 @@ public class playlist {
         songs = new ArrayList<>();
     }
 
-    add.song
+    public void addSong(song song) {
+        songs.add(song);
+    }
+
+    public int getTotalDuration() {
+        int total = 0;
+
+        for (song s : songs) {
+            total += s.getDuration();
+        }
+    }
+
 }
