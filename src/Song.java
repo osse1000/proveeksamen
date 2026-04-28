@@ -1,11 +1,11 @@
-public class song {
+public class Song {
 
     private String title;
     private String artist;
     private int duration;
 
 
-    public song(String title, String artist, int duration) {
+    public Song(String title, String artist, int duration) {
         this.title = title;
         this.artist = artist;
         this.duration = duration;
@@ -38,5 +38,9 @@ public class song {
 
     public String toString() {
         return "Title: " + title + ", Artist: " + artist + ", Duration: " + duration + " seconds";
+    }
+
+    public String toCSV() {
+        return title + " - " + artist + " - " + duration + " sekunder";
     }
 }
